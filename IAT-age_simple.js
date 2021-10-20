@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualtrics/quiat8.js'], function(APIConstructor, iatExtension){
+define(['pipAPI', 'https://toni2110.github.io/IAT-age/IAT-age-base.js'], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 var posWords = API.shuffle([
             'Kärlek', 'Glädje', 'Vän',  
