@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://toni2110.github.io/IAT-age/IAT-age-base.js'], function(APIConstructor, iatExtension){
+define(['pipAPI', 'https://cdn.jsdelivr.net/gh/toni2110/IAT-age/IAT-age-base.js'], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 var posWords = API.shuffle([
             'Kärlek', 'Glädje', 'Vän',  
